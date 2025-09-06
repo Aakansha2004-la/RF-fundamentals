@@ -408,7 +408,7 @@ CCDF Plot:
 
 
 
-```markdown
+
 ##  CCDF Analysis - Quantifying Signal Characteristics
 
 ### What is CCDF?
@@ -440,9 +440,9 @@ end
 [ccdf_wifi, ~] = ccdfAnalyzer(wifi_signal);
 ```
 
-### 📈 Understanding CCDF Plots
+###  Understanding CCDF Plots
 
-![CCDF Comparison](https://via.placeholder.com/600x400/3498db/ffffff?text=CCDF+Comparison+Plot)
+![CCDF.png](https://via.placeholder.com/600x400/3498db/ffffff?text=CCDF+Comparison+Plot)
 
 **X-axis**: Power level above average (dB)  
 **Y-axis**: Probability that signal exceeds this level
