@@ -202,6 +202,19 @@ end
 The FSPL calculator implementation demonstrates exceptional mathematical accuracy and real-world applicability. All test cases validate the expected inverse square law behavior for distance and direct proportional relationship with frequency. The implementation achieves 99.99% accuracy compared to theoretical expectations, making it suitable for professional radio frequency planning applications across telecommunications, wireless networking, and IoT deployment scenarios.
 
 ---
+##  Fresnel Zones & Earth Bulge
+
+### Why Free Space Isn't Quite Free
+
+While free space path loss assumes perfect vacuum, real-world radio links must consider:
+
+###  Fresnel Zones
+**The donut-shaped regions** around the direct path where radio waves can interfere constructively or destructively.
+
+```matlab
+% Calculate 1st Fresnel zone radius
+[radius, clearance] = fresnelZoneCalculator(10000, 6e9);
+fprintf('10km at 6GHz: %.1fm radius, %.1fm clearance needed\n', radius, clearance);
 
 <div align="center">
 
