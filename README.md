@@ -525,38 +525,6 @@ ylabel('Probability P(X > x)');
 3. **Compare technologies** using PAPR metrics
 4. **Design systems** based on statistical properties
 
----
-
-This CCDF analysis toolkit provides professional-grade signal characterization capabilities for wireless communication system design and analysis.
-```
-
-##  Key Concepts to Highlight
-
-### 1. **PAPR (Peak-to-Average Power Ratio)**
-- Critical for amplifier design
-- Affects system cost and efficiency
-- Higher PAPR = more expensive components
-
-### 2. **Statistical Analysis**
-- CCDF shows extreme value statistics
-- Helps predict worst-case scenarios
-- Essential for reliable system design
-
-### 3. **Technology Comparison**
-- Compare WiFi vs 5G vs LTE
-- Understand design tradeoffs
-- Optimize system performance
-
-This addition will make your RF repository incredibly valuable for both students and professionals working on real wireless system design!
 
 
 
-<div align="center">
-
-
-
-</div>
-
----
-
-*This implementation provides a mathematically rigorous foundation for understanding and predicting radio wave propagation in free space conditions.*
